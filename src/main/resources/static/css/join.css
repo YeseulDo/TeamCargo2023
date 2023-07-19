@@ -1,0 +1,95 @@
+@CHARSET "EUC-KR";
+
+body {
+	background-color: #f5f6f7;
+}
+
+.background {
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+section {
+	background-image: url("../../img/join.jpg");
+}
+
+.logo {
+	color: #00c853;
+	text-decoration: none;
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.logo:HOVER {
+	color: #00a243;
+	text-decoration: none;
+}
+
+.email-auth {
+	position: absolute;
+	top: 30px;
+	right: 15px;
+	height: calc(1.5em + 1rem + 2px);
+	padding: .375rem .75rem;
+	border: 1px solid #00c853;
+	border-radius: 3px;
+	background-color: #00c853;
+	color: white;
+}
+
+.email-auth:HOVER {
+	background-color: #00a243;
+}
+
+#emailAuthNum {
+	margin: 5px 20px 0 0;
+	width: 50%;
+	float: left;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.authCheck {
+	margin-top: 5px;
+	background-color: #eee;
+	color: black;
+	text-decoration: none;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	border: 1px solid #00c853;
+	border-radius: 3px;
+}
+
+.authCheck:HOVER {
+	background-color: #00c853;
+	color: white;
+}
+
+.post_btn {
+	height: calc(1.5em + 1rem + 2px);
+	padding: .375rem .75rem;
+}
+
+.btn_submit {
+	background-color: #00c853;
+	color: white;
+	width: 100%;
+}
+
+.btn_submit:HOVER {
+	background-color: #00a243;
+	color: white;
+}
+
+.help-block {
+	color: red;
+	font-size: 12px;
+}

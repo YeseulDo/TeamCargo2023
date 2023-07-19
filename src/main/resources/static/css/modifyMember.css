@@ -1,0 +1,38 @@
+@CHARSET "EUC-KR";
+
+.pwdCheck {
+	position: absolute;
+	top: 243px;
+	right: 15px;
+	height: calc(1.5em + .9rem + 2px);
+	padding: .375rem .75rem;
+	border: 1px solid #00c853;
+	border-radius: 3px;
+	background-color: #00c853;
+	color: white;
+}
+
+.pwdCheck:HOVER {
+	background-color: #00a243;
+}
+
+.post_btn {
+	height: calc(1.5em + 1rem + 2px);
+	padding: .375rem .75rem;
+}
+
+.btn_submit {
+	background-color: #00c853;
+	color: white;
+	width: 100%;
+}
+
+.btn_submit:HOVER {
+	background-color: #00a243;
+	color: white;
+}
+
+.help-block {
+	color: red;
+	font-size: 12px;
+}

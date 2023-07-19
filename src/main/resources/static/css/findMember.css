@@ -1,0 +1,52 @@
+@CHARSET "EUC-KR";
+
+body {
+	background-image: url("../../img/search.jpg");
+}
+
+.background {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+/* Style the tab */
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	border-top: 5px solid #f1f1f1;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+	border-top: 5px solid #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	border-top: 5px solid #00c583;
+}
+
+/* Style the tab content */
+.tabcontent {
+	padding: 20px 26px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.help-block {
+	color: red;
+	font-size: 12px;
+}

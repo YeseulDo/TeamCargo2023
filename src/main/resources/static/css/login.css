@@ -1,0 +1,61 @@
+@CHARSET "EUC-KR";
+
+.modal-login {
+	width: 350px;
+}
+
+.modal-login .modal-content {
+	padding: 20px;
+	border-radius: 1px;
+	border: none;
+}
+
+.modal-login .modal-header {
+	border-bottom: none;
+	position: relative;
+	justify-content: center;
+}
+
+.modal-login h4 {
+	text-align: center;
+	font-size: 26px;
+}
+
+.modal-login .form-control, .modal-login .btn {
+	min-height: 40px;
+	border-radius: 1px;
+}
+
+.modal-login .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+
+.modal-login .btn {
+	background: #3498db;
+	border: none;
+	line-height: normal;
+	font-size: 1.25rem;
+}
+
+.modal-login .btn:hover, .modal-login .btn:focus {
+	background: #248bd0;
+}
+
+.modal-login .hint-text, .modal-login .hint-text a {
+	color: #14ba9a;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 3;
+	margin: 0 7px;
+}
+
+.trigger-btn {
+	display: inline-block;
+}
+
+.help-block {
+	color: red;
+	font-size: 11px;
+}
